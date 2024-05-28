@@ -4,6 +4,8 @@ let DataUsers = [];
 let UrlAccounts = base + "&sheet=Purchases&tq=" + encodeURIComponent('Select *');
 let DataCustomers = [];
 
+
+
 document.addEventListener('DOMContentLoaded', LoadScript)
 function LoadScript() {
     let Loading=document.getElementById("LoadingFormBrowser");
@@ -409,6 +411,17 @@ function AddRowPrS1(Num,ind,Mydate,UserName,Type,Note,fileUrl,fileUrl1,fileUrl2)
         document.getElementById("MyfileTxt1").value=DataCustomers[index].fileUrl1;
         document.getElementById("MyfileTxt2").value=DataCustomers[index].fileUrl2;
       }
+
+        
+        function AddData(){
+        var Mode = document.getElementById('Mode');
+        Mode.value="1";
+        }
+        
+        function DeleteData(){
+        var Mode = document.getElementById('Mode');
+        Mode.value="2";
+        }
     }
     clearTimeout(myTimeout);
   }, 2000);
