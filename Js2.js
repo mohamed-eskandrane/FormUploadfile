@@ -348,6 +348,7 @@ function AddRowPrS1(Num,ind,Mydate,UserName,Type,Note,fileUrl,fileUrl1,fileUrl2)
   if(fileUrl!=null){
     aa.href=fileUrl;
     aa.innerText="الرابط1";
+    aa.target="_blank";
   }
   aa.id="aa" + bodydata.childElementCount;
   td.appendChild(aa);
@@ -356,6 +357,7 @@ function AddRowPrS1(Num,ind,Mydate,UserName,Type,Note,fileUrl,fileUrl1,fileUrl2)
   if(fileUrl1!=null){
     aa1.href=fileUrl1;
     aa1.innerText="الرابط2";
+    aa1.target="_blank";
 }
   aa1.id="aa1" + bodydata.childElementCount;
   td.appendChild(aa1);
@@ -364,6 +366,7 @@ function AddRowPrS1(Num,ind,Mydate,UserName,Type,Note,fileUrl,fileUrl1,fileUrl2)
   if(fileUrl2!=null){
   aa2.href=fileUrl2;
   aa2.innerText="الرابط3";
+  aa2.target="_blank";
   }
   aa2.id="aa2" + bodydata.childElementCount;
   td.appendChild(aa2);
