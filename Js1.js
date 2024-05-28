@@ -330,7 +330,7 @@ function AddRowPrS1(Num,ind,Mydate,UserName,Type,Note,fileUrl,fileUrl1,fileUrl2)
   cell = row.insertCell();
   cell.id="P" + bodydata.childElementCount + "ind";
   cell.innerHTML = ind;
-  // cell.style.display="none";
+  cell.style.display="none";
   cell = row.insertCell();
   cell.id="P" + bodydata.childElementCount + "Mydate";
   cell.innerHTML = GetDateFromString(Mydate);
