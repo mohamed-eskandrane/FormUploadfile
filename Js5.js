@@ -354,7 +354,7 @@ function AddRowPrS1(Num,ind,Mydate,UserName,Type,Note,fileUrl,fileUrl1,fileUrl2)
   td.appendChild(aa);
   row.appendChild(td=document.createElement('td'));
   var aa1 = document.createElement('a');
-  if(fileUrl1!=null && fileUrl!=""){
+  if(fileUrl1!=null && fileUrl1!=""){
     aa1.href=fileUrl1;
     aa1.innerText="الرابط2";
     aa1.target="_blank";
@@ -363,7 +363,7 @@ function AddRowPrS1(Num,ind,Mydate,UserName,Type,Note,fileUrl,fileUrl1,fileUrl2)
   td.appendChild(aa1);
   row.appendChild(td=document.createElement('td'));
   var aa2 = document.createElement('a');
-  if(fileUrl2!=null && fileUrl!=""){
+  if(fileUrl2!=null && fileUrl2!=""){
   aa2.href=fileUrl2;
   aa2.innerText="الرابط3";
   aa2.target="_blank";
