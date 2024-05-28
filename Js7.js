@@ -187,6 +187,7 @@ function LoadpurchasesWi(){
   let FormLoad=document.getElementById("FormLoad");
   Loading.className="fa fa-refresh fa-spin";
   FormLoad.style.display="flex";
+  document.getElementById("FormpurchasesDetails").reset();
   document.getElementById("outputTxt").value="";
   const myTimeout = setTimeout(function(){ 
     FormLoad.style.display="none";
